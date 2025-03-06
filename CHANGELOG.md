@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.0 (2025-03-06)
+### Feature
+* Initiate commit ([`8887bf2`](https://github.com/oscal-compass/e2e-demo-profile/commit/8887bf2daa0e85215ec63ccf38f6049bf981bef6))
+
+### Fix
+* Create a release ([`a59d657`](https://github.com/oscal-compass/e2e-demo-profile/commit/a59d657e26f3b66da847432c3c69e1ca47455373))
+* Add profile markdowns ([`557afea`](https://github.com/oscal-compass/e2e-demo-profile/commit/557afeabef886c94a27876361414591eb5f4119c))
+
 ## v0.2.2 (2025-03-02)
 ### Fix
 * Test create a release ([`eb7b598`](https://github.com/oscal-compass/e2e-demo-cac-profile-cis/commit/eb7b59881e71f918b38ec10dbf1548d5ae2b13b9))

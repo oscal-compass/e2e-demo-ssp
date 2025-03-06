@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "uuid": "c675b9ed-fcc8-40f8-8458-4a61c586476e",
+    "metadata": {
+      "title": "NIST SP 800-53 Rev 5 Controls, selected",
+      "last-modified": "2025-03-05T09:34:05.385204+00:00",
+      "version": "1.0.0",
+      "oscal-version": "1.0.4"
+    },
+    "imports": [
+      {
+        "href": "catalogs/NIST_800-53_rev5/catalog.json",
+        "include-controls": [
+          {
+            "with-ids": [
+              "ac-1",
+              "ac-2",
+              "ac-2.1",
+              "ac-2.5",
+              "ac-3",
+              "ac-5",
+              "ac-6",
+              "ac-6.2",
+              "ac-6.5",
+              "ac-11",
+              "ac-11.1",
+              "ac-12",
+              "ac-17.2",
+              "au-2",
+              "au-3",
+              "au-3.1",
+              "au-7",
+              "au-12",
+              "cm-1",
+              "cm-2",
+              "cm-6",
+              "cm-7",
+              "cm-7.1",
+              "cm-9",
+              "ia-5",
+              "ia-5.1",
+              "mp-2",
+              "sa-3",
+              "sa-8",
+              "sa-10",
+              "sc-8",
+              "sc-8.1",
+              "sc-28",
+              "sc-28.1"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -27,11 +27,11 @@ function github-branch-commit() {
         return 1
     fi
 
-    if ! git add profiles; then
+    if ! git add system-security-plans; then
         err "failed to add modified files to git index"
         return 1
     fi
-    if ! git add md_profiles; then
+    if ! git add md_ssp; then
         err "failed to add modified files to git index"
         return 1
     fi
@@ -60,7 +60,7 @@ function github-branch-commit() {
     
     local remote=origin
     if [[ $GITHUB_TOKEN ]]; then
-        remote=https://$GITHUB_TOKEN@github.com/oscal-compass/e2e-demo-profile
+        remote=https://$GITHUB_TOKEN@github.com/oscal-compass/e2e-demo-cac-profile-cis
     fi
     if [[ $GIT_BRANCH != main ]] && [[ $GIT_BRANCH != develop ]]; then
         msg "not pushing updates to branch $GIT_BRANCH"
